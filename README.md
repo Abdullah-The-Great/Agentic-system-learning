@@ -111,3 +111,13 @@ Open http://localhost:5173 and ask something current, e.g. _"What's the latest n
 ## License
 
 MIT
+
+## ⚠️ Disclaimer
+
+This is a **learning project** built to explore how agentic AI systems work, and it's intended for educational and demonstration purposes.
+
+- **Not production-ready.** It has no authentication, rate limiting, or hardened error handling. Don't deploy it publicly as-is.
+- **AI output can be wrong.** The agent uses a language model, which can make mistakes, misread search results, or "hallucinate." Answers are not guaranteed to be accurate — always verify anything important against the cited sources.
+- **The `calculate` tool uses `Function()` on a guarded expression string.** It's fine for this project's local use, but do not expose it to untrusted input in a real deployment without a proper safe math parser.
+- **Third-party services.** It calls the Anthropic and Tavily APIs, which have their own terms, costs, and rate limits. You are responsible for your own API keys and usage.
+- **No warranty.** Provided as-is (see the [License](#license)).
