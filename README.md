@@ -100,14 +100,6 @@ Open http://localhost:5173 and ask something current, e.g. _"What's the latest n
 4. Every step is emitted as an SSE event and rendered live.
 5. When the model has a final answer, the stream closes.
 
-## Roadmap
-
-- [ ] Deploy to AWS (backend + static frontend)
-- [ ] Stream the final answer token-by-token
-- [ ] Clickable source links in results
-- [ ] Local-first / cloud-fallback model toggle (runs on a local LLM via LM Studio)
-- [ ] Plug in MCP tool servers
-
 ## License
 
 MIT
